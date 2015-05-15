@@ -15,10 +15,9 @@
 	width:100%;
 	padding-bottom:20px;
 	}
-
-.row:after { /** This is creating space to break the floats under the rows **/
-	content:""; /** use this because using psuedo selector after, have to have content **/
-	display:table; /** This is an empty table **/
+.row:after { 
+	content:""; 
+	display:table; 
 	clear:both;
 	}
 [class*='col-'] {
