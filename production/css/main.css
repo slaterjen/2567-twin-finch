@@ -7,7 +7,7 @@
 	-moz-box-sizing:border-box;
 	}
 .bkg-color {
-	
+
 	}
 .wrapper {
 	width:85%;
@@ -67,6 +67,9 @@
 	}
 .col-7-12 {
 	width:58.33%;
+	}
+.col-2-3 {
+	width:66.66%;
 	}
 @media screen and (max-width:760px) {
 .wrapper {
