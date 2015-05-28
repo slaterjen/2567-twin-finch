@@ -6,8 +6,34 @@
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	}
-.bkg-color {
+/* ----------- 
+TYPOGRAPHY
+-------------- */	
+h2 {
+	font-family: 'Fugaz One', cursive;
+	font-size:3em;
+	}
+h3 {
+	font-size:2em;
+	color:black;
+	text-align:center;
+	}
+h4 {
+	font-size:1.5em;
+	text-align:center;
+	}
+* {
+	font-family: 'Oswald', sans-serif;
+	font-size:1em;
+	font-weight:lighter;
+	color:#3d2b17;
+	}
 
+	
+	
+	
+.bkg-color {
+	background-color:#f2f1f0;
 	}
 .wrapper {
 	width:85%;
@@ -29,6 +55,47 @@
 [class*='col-']:last-of-type {
 	padding-right:0;
 	}
+	
+	
+/* ----------- 
+HEADER
+-------------- */	
+nav {
+	margin:0 auto;
+	position:relative;
+	}
+.bkg-color-nav {
+	background-color:#e4dfd9;
+	}
+nav ul li {
+	display:inline-block;
+	margin:10px 50px;
+	text-align:center;
+	}
+ul {
+	text-align:center;
+	}
+.social-media {
+	display:inline-block;
+	list-style-type:none;
+	}
+	
+	
+/* ----------
+PRODUCTS
+------------- */ 
+.bkg-color-products {
+	background-color:#f2f1f0;
+	width:270px;
+	height:64px;
+	}
+.margin-products {
+	margin-right: 108px;
+	}
+	
+/* ----------- 
+COLUMN SIZES
+-------------- */	
 .col-1-1 {
 	width:100%;
 	}
