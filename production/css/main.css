@@ -28,7 +28,12 @@ h4 {
 	font-weight:lighter;
 	color:#3d2b17;
 	}
-
+.centered-type {
+	text-align:center;
+	}
+.uppercase {
+	text-transform:uppercase;
+	}
 	
 	
 	
@@ -75,9 +80,14 @@ nav ul li {
 ul {
 	text-align:center;
 	}
-.social-media {
+li {
 	display:inline-block;
-	list-style-type:none;
+	}
+a {
+	text-decoration:none;
+	}
+a:hover {
+	color:#45857d;
 	}
 	
 	
@@ -91,6 +101,26 @@ PRODUCTS
 	}
 .margin-products {
 	margin-right: 108px;
+	}
+.subroasts-buttons {
+	background: #64422c;
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  color: #F3F0F0;
+  font-size: 15px;
+  padding: 8px 30px 8px 30px;
+  text-decoration: none;
+  text-transform:uppercase;
+	}
+a:hover.subroasts-buttons {
+	background: #45857d;
+	color: #64422c;
+	text-transform:uppercase;
+	}
+
+.finchtype-align {
+	margin-top:130px;
 	}
 	
 /* ----------- 
