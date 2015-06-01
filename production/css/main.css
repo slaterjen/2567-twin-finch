@@ -9,22 +9,25 @@
 /* ----------- 
 TYPOGRAPHY
 -------------- */	
+body {
+	font-size:16px;
+	}
 h2 {
 	font-family: 'Fugaz One', cursive;
-	font-size:3em;
+	font-size:3rem;
 	}
 h3 {
-	font-size:2em;
+	font-size:2rem;
 	color:black;
 	text-align:center;
 	}
 h4 {
-	font-size:1.5em;
+	font-size:1.5rem;
 	text-align:center;
 	}
 * {
 	font-family: 'Oswald', sans-serif;
-	font-size:1em;
+	font-size:1rem;
 	font-weight:lighter;
 	color:#3d2b17;
 	}
@@ -60,7 +63,14 @@ h4 {
 [class*='col-']:last-of-type {
 	padding-right:0;
 	}
-	
+.center-block {
+	float:none !important;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.hidden-lg {
+	display:none;
+	}
 	
 /* ----------- 
 HEADER
@@ -74,7 +84,7 @@ nav {
 	}
 nav ul li {
 	display:inline-block;
-	margin:10px 50px;
+	margin:10px 40px;
 	text-align:center;
 	}
 ul {
@@ -88,6 +98,9 @@ a {
 	}
 a:hover {
 	color:#45857d;
+	}
+.icons {
+	float:right; !important;
 	}
 	
 	
@@ -121,6 +134,35 @@ a:hover.subroasts-buttons {
 
 .finchtype-align {
 	margin-top:130px;
+	}
+
+/* ----------- 
+CONTACT-FORM
+-------------- */
+.contactform {
+	padding:30px;
+	background-color:#e4dfd9;
+	width:650px;
+	height:535px;
+	color:#EBE6E6;
+	margin:50px;
+	}
+label {
+	width:50px;
+	float: left;
+	text-align: right;
+	margin-right:20px;
+	}
+textarea {
+	width:150px;
+	left:99px;
+	margin-right:20px;
+	display: block;
+	padding:50px;
+	}
+textarea, label, input {
+	display:block;
+	margin-bottom:20px;
 	}
 	
 /* ----------- 
