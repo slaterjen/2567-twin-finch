@@ -17,22 +17,23 @@
     <div class="bkg-color-nav">
       <div class="wrapper">
         <header class="row">
-          <div class="col-1-1">
+          <div class="col-11-12">
             <nav>
               <ul>
                 <li><a href="#home">home</a></li>
-                <li><a href="#about us">about us</a></li>
+                <li><a href="#about-us">about us</a></li>
                 <li><img src="img/twin-finch-logo.png" alt="logo"></li>
-                <li><a href="#our roasts">our roasts</a></li>
+                <li><a href="#our-roasts">our roasts</a></li>
                 <li><a href="#contact">contact us</a></li>
               </ul>
             </nav>
+           </div>
             <ul class="col-1-12 icons">
               <li><img src="img/twitter-logo.png" alt="twitter"></li>
               <li><img src="img/faceboo-logo.png" alt="facebook"></li>
               <li><img src="img/googleplus-logo.png" alt="google plus"></li>
             </ul>
-          </div>
+          
         </header>
       </div>
     </div>
@@ -67,15 +68,15 @@
 <!-- ============= 
 	OTHER ROASTS
 ==================-->
-<section id="our roasts">
+<section id="our-roasts">
     <div class="wrapper">
       <div class="row">
         <div class="col-1-3">
         	<header>
           		<h2>Other Roasts</h2>
           	</header>
-          <div class="bkg-color-products">
-            <h3>Finch House Blend</h3>
+          <div class="bkg-color-houseblend">
+            <h3 id="fugaz-houseblend">Finch House Blend</h3>
           </div>
           <img src="img/twin-finch-packaging-Houseblend.png" alt="Finch House Blend product shot">
           <p class="centered-type">Medium</p>
@@ -91,10 +92,11 @@
               <p>1lb $17.95</p>
               <a class="subroasts-buttons">Buy Now</a> </div>
           </div>
+           <img src="img/featured-line.png" alt="line" class="featured-line-margin"/>
           <div class="row">
             <div class="col-1-2">
               <p><b>Our house blend was rated a 98 by coffeereview.com!</b></p>
-              <blockquote>"This extraordinary coffee almost defies description with its aromatic complextity while retaining a class clarity of structure."
+              <blockquote>This extraordinary coffee almost defies description with its aromatic complextity while retaining a class clarity of structure."
               <footer>-<cite><b>Coffee Review</b></cite></footer>
               </blockquote>
              
@@ -112,35 +114,43 @@
           <div class="bkg-color-products">
             <h4>Sunrise</h4>
           </div>
-          <img src="img/twin-finch-packaging-subs.png" alt="Sunrise product shot"> 
+          <img src="img/twin-finch-packaging-sunrise.png" alt="Sunrise product shot"> 
           <p class="centered-type">Light</p>
           <p>Light, <b>fruity</b> acidity which complements its fully <b>nutty</b> body and <b>unique</b> spicy tones.</p>
           <p class="uppercase">Grown In</p> <p>La Chiapas, Mexico</p>
+          <img src="img/otherroasts-line.png" alt="line"/>
           <p class="centered-type">1lb $17.95</p>
-          <a class="subroasts-buttons">Buy Now</a> 
+          <div class="center-block">
+          	<p class="centered-type"><a class="subroasts-buttons">Buy Now</a></p>
           </div>
+         </div>
         <!-- MIDNIGHT-->
         <div class="col-1-4 margin-products">
           <div class="bkg-color-products">
             <h4>Midnight</h4>
           </div>
-          <img src="img/twin-finch-packaging-subs.png" alt="Midnight product shot">
+          <img src="img/twin-finch-packaging-Midnight.png" alt="Midnight product shot">
           <p class="centered-type">Dark</p>
           <p>Roasted in second crack for a big, <b>bold</b> and <b>dark</b> cup. Beans display oil.</p>
           <p class="uppercase">Grown In</p> <p>Latin America</p>
+           <img src="img/otherroasts-line.png" alt="line"/>
           <p class="centered-type">1lb $17.95</p>
-          <a class="subroasts-buttons">Buy Now</a> </div>
+          <p class="centered-type"><a class="subroasts-buttons">Buy Now</a></p> </div>
         <!-- ESPRESSO-->
         <div class="col-1-4">
           <div class="bkg-color-products">
             <h4>Espresso</h4>
           </div>
-          <img src="img/twin-finch-packaging-subs.png" alt="Espresso product shot"> 
-          <p>Clean, a little <b>roasty</b>, <b>sumptuous</b> crema, unfussy, <b>delicious</b>.</p>
-          <p class="uppercase">Grown In</p> <p>Latin America, Africa, Indonesia</p>
-          <p class="centered-type">1lb $19.95</p>
-          <a class="subroasts-buttons">Buy Now</a> </div>
+          <img src="img/twin-finch-packaging-Espresso.png" alt="Espresso product shot"> 
+          <div class="espresso-margin">
+              <p>Clean, a little <b>roasty</b>, <b>sumptuous</b> crema, unfussy, <b>delicious</b>.</p>
+              <p class="uppercase">Grown In</p> <p>Latin America, Africa, Indonesia</p>
+               <img src="img/otherroasts-line.png" alt="line"/>
+              <p class="centered-type">1lb $19.95</p>
+              <p class="centered-type"><a class="subroasts-buttons">Buy Now</a></p> </div>
+          </div>
       </div>
+     </div>
     </div>
 </section>
 <!-- ============= 
@@ -148,7 +158,7 @@
 ==================-->
     <div class="bkg-color">
       <div class="wrapper">
-        <section class="row" id="about us">
+        <section class="row" id="about-us">
           <div class="col-1-2">
           	<header>
             	<h2>About Us</h2>
@@ -172,9 +182,9 @@
             	<h2 class="centered-type">Contact Us</h2>
             </header>
           <form class="contactform">
-            <label for="subject">Subject</label>
+            <label for="subject"></label>
             <input type="text" id="subject" placeholder="What's your subject?">
-            <label for="emailAddress">Email</label>
+            <label for="emailAddress"></label>
             <input type="email" id="emailAddress" placeholder="Your Email Address">
             <textarea rows="5"></textarea>
             <button type="submit">Submit!</button>
@@ -182,9 +192,10 @@
         </div>
        </div>
     </div>
-  <!-- ============= 
+<!-- ============= 
 	NEWSFEED
 ==================-->
+<div class="col-1-1 center-block">
   <div class="row">
     <div class="col-1-3">
       <h4>Twitter</h4>
@@ -193,12 +204,13 @@
       <h4>Tumblr</h4>
     </div>
   </div>
+</div>
 </section> 
   <!-- ============= 
 	MAP
 ==================-->
   <div class="row">
-    <div class="col-1-1"> </div>
+    <div class="col-1-1 center-block" id="map-canvas"> </div>
   </div>
 
 <!-- ============= 
@@ -216,6 +228,21 @@
         </footer>
       </div>
     </div>
-
+<!-- ============= 
+	SCRIPT
+==================-->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+  function initialize() {
+	var mapCanvas = document.getElementById('map-canvas');
+    var mapOptions = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+    var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </body>
 </html>
