@@ -44,21 +44,21 @@
     <div class="bkg-color">
       <div class="wrapper">
         <section class="row" id="home">
-          <div class="col-1-2"> <img src="img/twin-finch-packaging-featured.png" alt="Evening Oak product"> </div>
+          <div class="col-1-2"> <img src="img/twin-finch-packaging-eveningoak.png" alt="Evening Oak product" class="evningoak-margin"> </div>
           <div class="col-1-2">
           	<header>
                 <h3>Our featured roast of the season...</h3>
                 <h2 class="centered-type">Evening Oak</h2>
-                <p class="centered-type uppercase">Medium-Dark</p>
+                <p class="centered-type uppercase"><b>Medium-Dark</b></p>
             </header>
             <p>Pungentely <b>rich</b> and <b>complex</b> with hints of nightblooming <b>flowers</b> and coriander in <b>aroma</b> and cup.</p>
-            <div class="row">
+            <div class="row margin-subinfo-evningoak">
               <div class="col-1-2">
                 <p class="uppercase">Grown In</p>
                 <p>Eastern Java, Indonesia</p>
               </div>
               <div class="col-1-2">
-                <p>1lb $19.95</p>
+                <p class="inline-price-button">1lb $19.95</p>
                 <a class="subroasts-buttons">Buy Now</a> </div>
             </div>
           </div>
@@ -79,7 +79,7 @@
             <h3 id="fugaz-houseblend">Finch House Blend</h3>
           </div>
           <img src="img/twin-finch-packaging-Houseblend.png" alt="Finch House Blend product shot">
-          <p class="centered-type">Medium</p>
+          <p class="centered-type uppercase"><b>Medium</b></p>
         </div>
         <div class="col-7-12 finchtype-align">
           <p>Hint of <b>citrus</b>, complemented by flavors of <b>dark chocolate</b>, peanut and light <b>pepper</b> notes.</p>
@@ -99,10 +99,9 @@
               <blockquote>This extraordinary coffee almost defies description with its aromatic complextity while retaining a class clarity of structure."
               <footer>-<cite><b>Coffee Review</b></cite></footer>
               </blockquote>
-             
             </div>
             <div class="col-1-2">
-              <p>To get the quality taste out of our roasts, we have provided an article for the ultimate perfection!</p>
+              <p>To get the quality taste out of our roasts, we have<br/> provided an article for the ultimate perfection!</p>
               <a class="subroasts-buttons">Learn how to brew</a> </div>
           </div>
         </div>
@@ -115,7 +114,7 @@
             <h4>Sunrise</h4>
           </div>
           <img src="img/twin-finch-packaging-sunrise.png" alt="Sunrise product shot"> 
-          <p class="centered-type">Light</p>
+          <p class="centered-type uppercase"><b>Light</b></p>
           <p>Light, <b>fruity</b> acidity which complements its fully <b>nutty</b> body and <b>unique</b> spicy tones.</p>
           <p class="uppercase">Grown In</p> <p>La Chiapas, Mexico</p>
           <img src="img/otherroasts-line.png" alt="line"/>
@@ -130,7 +129,7 @@
             <h4>Midnight</h4>
           </div>
           <img src="img/twin-finch-packaging-Midnight.png" alt="Midnight product shot">
-          <p class="centered-type">Dark</p>
+          <p class="centered-type uppercase"><b>Dark</b></p>
           <p>Roasted in second crack for a big, <b>bold</b> and <b>dark</b> cup. Beans display oil.</p>
           <p class="uppercase">Grown In</p> <p>Latin America</p>
            <img src="img/otherroasts-line.png" alt="line"/>
@@ -167,7 +166,7 @@
             <p>Our coffee is roasted in a hot air, refractory lined roaster with an extraordinary level of control. The significance of relying on a high volume of hot air to roast coffee beans can't be understated. Most small coffee roasters use a single stage burner which offers virtually no control during the roasting process. The refractory significantly reduces hot spots which can damage coffee beans and produces a much more even roasting environment.</p>
             <p>Online orders usually ship quickly and arrive within three business days. We only ship the freshest coffee and your satisfaction is guaranteed. Our rotating, featured coffees are roasted on a more limited basis and your order may be held until the next time a batch hits the roaster. We only ship whole bean, but will grind for you in­store per request. You can buy from us directly at our Seattle storefront located at 457 NW Market Street.</p>
             <a class="subroasts-buttons">Buy Now</a> </div>
-          <div class="col-1-2"> <img src="null" alt="Decorative photo"> </div>
+          <div class="col-1-2"> <img src="img/CoffeeRoaster.png" alt="Decorative photo" class="img-coffeeroaster"> </div>
         </section>
       </div>
     </div>
@@ -182,9 +181,7 @@
             	<h2 class="centered-type">Contact Us</h2>
             </header>
           <form class="contactform">
-            <label for="subject"></label>
-            <input type="text" id="subject" placeholder="What's your subject?">
-            <label for="emailAddress"></label>
+            <input type="text" id="subject" placeholder="Subject">
             <input type="email" id="emailAddress" placeholder="Your Email Address">
             <textarea rows="5"></textarea>
             <button type="submit">Submit!</button>
@@ -236,7 +233,7 @@
   function initialize() {
 	var mapCanvas = document.getElementById('map-canvas');
     var mapOptions = {
-          center: new google.maps.LatLng(44.5403, -78.5463),
+          center: new google.maps.LatLng(47.668643, -122.362423),
           zoom: 8,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
