@@ -53,6 +53,9 @@ blockquote:before {
 	width:39px;
 	height:36px;
 	}
+.description, .description b  {
+	font-size:1.25rem;
+	}
 	
 	
 .bkg-color {
@@ -92,10 +95,12 @@ HEADER
 -------------- */	
 nav {
 	margin:0 auto;
-	position:relative;
 	}
 .bkg-color-nav {
 	background-color:#e4dfd9;
+	position:fixed;
+	width:100%;
+	overflow:auto;
 	}
 nav ul li {
 	display:inline-block;
@@ -172,7 +177,10 @@ a:hover.subroasts-buttons {
 	margin:3.125rem 1.875rem 0 3.125rem;
 	}
 .margin-subinfo-evningoak {
-	margin-top:160px;
+	margin-top:10rem;
+	}
+.margin-how-to-brew {
+	margin-bottom:3.125rem;
 	}
 /* ----------- 
 ABOUT US
